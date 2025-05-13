@@ -1,0 +1,17 @@
+{% if 'timings' in user_input %}
+  {% set location = extract_location(user_input) %}
+  {% set api_response = call_api('/location?city=' + location) %}
+
+  {% if api_response.error %}
+    Sorry, I couldn't find information about {{location}}. 
+    Would you like to try another location?
+  {% else %}
+    The {{location}} outlet timings are:
+    Lunch: {{api_response.timings.weekdays.lunch}}, 
+    Dinner: {{api_response.timings.weekdays.dinner}}.
+    
+    {% if 'sunday' in user_input %}
+      On Sunday, lunch starts at: {{api_response.timings.sunday.lunch}}
+    {% endif %}
+  {% endif %}
+{% endif %}

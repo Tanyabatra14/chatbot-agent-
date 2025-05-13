@@ -1,0 +1,7 @@
+{% set location = extract_location(user_input) %}
+{% set date = extract_date(user_input) %}
+{% set time = extract_time(user_input) %}
+{% set guests = extract_guests(user_input) %}
+
+Got it! You're booking a table at {{location}} for {{guests}} guests on {{date}} at {{time}}.
+Would you like me to confirm this reservation?

@@ -1,0 +1,139 @@
+{
+  "locations": [
+    {
+      "location": "Bangalore - Indiranagar",
+      "address": "No.4005, HAL 2nd stage, 100 feet road, Indiranagar, Bangalore-560038",
+      "amenities": {
+        "bar": "Yes",
+        "valet_parking": "Yes",
+        "baby_chair": "Yes",
+        "lift": "Yes"
+      },
+      "timings": {
+        "weekdays": {
+          "lunch": "12:00 PM - 5:00 PM (last entry 4:00 PM)",
+          "dinner": "6:30 PM - 11:55 PM (last entry 11:00 PM)"
+        },
+        "sunday": {
+          "lunch": "11:00 AM - 5:00 PM (last entry 4:00 PM)",
+          "dinner": "6:30 PM - 11:55 PM (last entry 11:00 PM)"
+        }
+      },
+      "special_days": {
+        "2nd_october": "Closed for Gandhi Jayanti"
+      },
+      "offers": {
+        "complimentary_drinks": "Lunch/Monday-Saturday: 1 round soft drink/mocktail",
+        "food_festival": "No"
+      },
+      "nearest_outlets": [
+        {
+          "name": "Lido Mall Mg Road",
+          "distance": "4.1 km",
+          "address": "1/4, Ground Floor, Lido Mall, Swami Vivekananda Road, Halasuru"
+        },
+        {
+          "name": "Koramangala 7th block",
+          "distance": "5.8 km",
+          "address": "118, 1st Floor, 80 Feet Rd, KHB Colony"
+        }
+      ]
+    },
+    {
+      "location": "Bangalore - Electronic City",
+      "address": "99, 14th Cross Road, Neeladri Nagar, Electronics City Phase 1, Bengaluru-560100",
+      "amenities": {
+        "bar": "No",
+        "parking": "Self/Chargeable",
+        "baby_chair": "Yes",
+        "lift": "Yes"
+      },
+      "timings": {
+        "regular": {
+          "lunch": "12:00 PM - 5:00 PM (last entry 4:00 PM)",
+          "dinner": "6:30 PM - 11:55 PM (last entry 11:00 PM)"
+        }
+      }
+    },
+    {
+      "location": "New Delhi - Connaught Place",
+      "address": "Munshilal Building, 2nd Floor N-19, Block N, Connaught Place, New Delhi-110001",
+      "amenities": {
+        "bar": "Yes",
+        "parking": "Assistance available",
+        "baby_chair": "No",
+        "lift": "Yes",
+        "private_dining": "Yes (Capacity: 25, Min Pax: 20)"
+      },
+      "timings": {
+        "weekdays": {
+          "lunch": "12:00 PM - 5:00 PM (last entry 4:00 PM)",
+          "dinner": "6:30 PM - 12:00 AM (last entry 11:00 PM)"
+        },
+        "weekend": {
+          "lunch": "12:00 PM - 5:00 PM (last entry 4:00 PM)",
+          "dinner": "6:30 PM - 12:00 AM (last entry 11:00 PM)"
+        }
+      },
+      "contact": ["7042698057", "8130244992", "8470015488"]
+    },
+    {
+      "location": "New Delhi - Vasant Kunj",
+      "address": "Plot No. 11, Local Shopping Center, Pyramid Building, Sector C, Vasant Kunj, New Delhi-110070",
+      "amenities": {
+        "bar": "Yes",
+        "parking": "Assistance available",
+        "baby_chair": "No",
+        "lift": "No"
+      },
+      "timings": {
+        "regular": {
+          "lunch": "12:00 PM - 5:00 PM (last entry 4:00 PM)",
+          "dinner": "6:00 PM - 12:00 AM (last entry 11:00 PM)"
+        }
+      },
+      "special_offers": {
+        "early_dinner": "Wednesday-Sunday: 6:00 PM - 6:30 PM"
+      }
+    }
+  ],
+  "menu": {
+    "veg": {
+      "starters": ["Grill Veg", "Mushroom", "Paneer", "Veg Kebab", "Cajun Spice Potato", "Pineapple"],
+      "main_course": ["Noodles", "Oriental Veg", "Paneer", "Aloo", "Veg Kofta", "Dal Tadka", "Dal Makhani"],
+      "biryani": "Veg Biryani",
+      "desserts": ["Gulab Jamun", "Phirnee", "Ice Cream", "Fruits", "Pastry", "Brownie", "Pudding"]
+    },
+    "non_veg": {
+      "starters": ["Chicken Tangdi", "Chicken Skewer", "Mutton", "Fish (BASA)", "Prawns (Zinga)"],
+      "main_course": ["Chicken Biryani", "Mutton Curry", "Chicken Curry", "Fish Gravy"],
+      "soups": ["Veg Soup", "Non-Veg Soup"]
+    },
+    "salads": {
+      "veg": "4 varieties",
+      "non_veg": "Available"
+    },
+    "special_diets": {
+      "jain": "Available (limited variety)",
+      "halal": "Yes (certified)",
+      "jatka": "Not available"
+    },
+    "beverages": {
+      "alcoholic": "Available (ala carte only)",
+      "non_alcoholic": "Soft drinks, mocktails",
+      "outside_alcohol": "Not allowed"
+    }
+  },
+  "policies": {
+    "reservation": {
+      "group_size": {
+        "2+1": "Flexible timing",
+        "3+": "Flexible timing"
+      }
+    },
+    "special_requests": {
+      "menu_customization": "Possible for taste preferences",
+      "additional_dishes": "Subject to availability"
+    }
+  }
+}
